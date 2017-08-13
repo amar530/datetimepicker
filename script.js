@@ -13,4 +13,5 @@
        alert("India time is :"+d);
       console.log("Indian standard time :"+d);
       $("#view").text("India Time :"+d);
+      console.log("Unix Time stamp :"+Date.parse(d));
     }
